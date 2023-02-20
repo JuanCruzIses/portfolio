@@ -1,0 +1,24 @@
+form{
+    width: 90%;
+    margin: 2em auto;
+}
+
+p{
+    text-align: center;
+    margin-top: 1em;
+    font-weight: 500;
+}
+
+.col-md-4{
+    margin-bottom: 1em;
+}
+
+.container-text-button{
+    width: 100%;
+    text-align: center;
+}
+
+.btn.btn-primary{
+    margin: 2em 0 0;
+}
+
