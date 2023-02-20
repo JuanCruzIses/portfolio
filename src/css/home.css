@@ -81,7 +81,7 @@ h3{
     text-align: center;
     width: 60%;
     position: relative;
-    margin: 1em 0;
+    margin: 1em 1em;
     border-radius: 10px;
     display: flex;
     box-shadow: 0px 0px 5px #9d7b3ede;
@@ -152,4 +152,27 @@ h3{
     font-size: 0.9em;
     width: 75%;
     margin: 0 auto 1em;
+  }
+
+  @media (min-width:375px) {
+    .image-project-modal{
+        width: 60%;
+    }
+  }
+
+  @media (min-width:450px) {
+    .project-modal{
+        width: 40%;
+        max-width: 187px;
+    }
+
+    .subtitle-projects-section{
+        width: 100%;
+    }
+  }
+
+  @media (min-width:1000px){
+    .projects-section h6{
+        width: 100%;
+    }
   }

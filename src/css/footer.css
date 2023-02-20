@@ -8,6 +8,10 @@ footer{
     flex-wrap: wrap;
 }
 
+.label{
+    margin-left: 0.5em;
+}
+
 .logo-footer{
     height: 40%;
     border-radius: 20%;
@@ -28,9 +32,10 @@ footer{
     width: 100%;
     text-align: center;
     font-weight: bold;
-    font-family: europe;
+    font-family: "eurostile", sans-serif;
     text-decoration: underline;
-    margin: 1em auto 0;
+    margin: auto;
+    font-size: 1.2em;
 }
 
 .footer-button{

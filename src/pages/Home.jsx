@@ -15,7 +15,7 @@ function Home() {
             <section className='presentation'>
                 <h1>Juan Cruz Ises</h1>
                 <h3>DESARROLLADOR WEB FULL STACK</h3>
-                <p className='about-me'>A partir del año 2021 decidí realizar un cambio en la dirección de mi vida y me introduje de lleno en el mundo de la programación, encontrando así, una nueva pasión. A partir del estudio en diversas instituciones educativas, estudio autodidacta y la charla con pares programadores, fui desarrollando una formación llena de herramientas, aportando de mi personalidad la creatividad y las ganas de innovar.</p>
+                <p className='about-me'>A partir del año 2021 decidí realizar un cambio en la dirección de mi vida e introducirme de lleno en el mundo de la programación, descubriendo así una nueva pasión. A partir del estudio en distintas instituciones, como tambien de forma autodidacta y lo aprendido de pares programadores con mayor experiencia, logre desarrollar una formación llena de herramientas para llevar adelante distintos tipos de proyectos, aportando de mi creatividad y ganas de innovar.</p>
             </section>
             <div className='background-color'></div>
             <img className='ilustracion-img' src={require('../images/ilustracion.png')}></img>
