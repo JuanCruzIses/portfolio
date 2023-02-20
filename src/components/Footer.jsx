@@ -12,7 +12,7 @@ function Footer(){
                             <FaLinkedin/>
                        </button>
                     </a>
-                    <a  href='https://portfolio-red-mu-47.vercel.app/contact'>
+                    <a  href='https://juancruzises-portfolio.vercel.app/contact'>
                         <button className='footer-button'>
                             <MdEmail/>
                         </button>
