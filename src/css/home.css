@@ -21,6 +21,7 @@
 }
 
 h1{
+    font-weight: 800;
     width: 100%;
     margin: 4em auto 0;
     text-align: center;
@@ -29,7 +30,7 @@ h1{
 }
 
 h3{
-    font-weight: 400;
+    font-weight: 600;
     width: 100%;
     margin: 0.2em 1em;
     text-align: center;
@@ -49,12 +50,16 @@ h3{
     margin-top: 8em;
 }
 
+.container-ilustracion-img{
+    width: 100%;
+    display: flex;
+    z-index: 100;
+    position: sticky;
+    justify-content: center;
+}
+
 .ilustracion-img{
     width: 70vw;
-    height: auto;
-    margin: auto auto 2em;
-    position: relative;
-    left: 3em;
 }
 
 .projects-section{
@@ -131,6 +136,8 @@ h3{
 }
   
   .title-project-modal {
+    font-family: "eurostile", sans-serif;
+    font-weight: bold;
     text-decoration: underline;
     color: white;
     font-size: 1.1em;
@@ -152,6 +159,8 @@ h3{
     font-size: 0.9em;
     width: 75%;
     margin: 0 auto 1em;
+    font-family: "eurostile", sans-serif;
+    font-weight: bold;
   }
 
   @media (min-width:375px) {
@@ -169,10 +178,61 @@ h3{
     .subtitle-projects-section{
         width: 100%;
     }
+
+    .ilustracion-img{
+        width: 60vw;
+    }    
   }
+
+  @media (min-width:560px) {
+    .banner-img{
+        height: 25vh;
+    }    
+
+    .ilustracion-img{
+        width: 50vw;
+    }   
+    }
+
+    @media (min-width:700px) {
+       h1{
+        margin-top: 1.5em;
+       }
+       
+        .banner-img{
+            height: auto;
+        }    
+
+        .retrato-img{
+            /* height: 45vh;
+            top: 7.2em; */
+            width: 25%;
+            height: auto;
+            top: 9em;
+        }
+        
+        .about-me{
+            font-size: 1.2em;
+            width: 70vw;
+            margin: 3.5em auto;
+        }
+
+        .background-color{
+            margin-top: 10em;
+            height: 75vh;
+        }
+        .ilustracion-img{
+            width: 32vw;
+        }
+        
+    }
 
   @media (min-width:1000px){
     .projects-section h6{
         width: 100%;
+    }
+
+    .background-color{
+        margin-top: 15em;
     }
   }

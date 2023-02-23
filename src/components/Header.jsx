@@ -1,14 +1,17 @@
 import '../css/header.css'
+import {MdEmail} from 'react-icons/md'
+import 'animate.css';
 
 function Header(){
     return(
         <header className='header'>
             <a href='/'>
-                <img className='logo scale-up-center' src={require('../images/logo.png')}></img>
+                <img id='header' className='logo scale-up-center animate_animated animate__flipInX' src={require('../images/logo.png')}></img>
             </a>
-            <a href='/contact'>
-            <button className='contact-button'>
+            <a href='/contact' className='contact-button'>
                 Contactar
+            <button> 
+                <MdEmail/>
             </button>
             </a>
         </header>

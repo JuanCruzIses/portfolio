@@ -32,6 +32,7 @@ function Contact() {
     return (
         <>
             <Header />
+            <h1 className='contact-title'>Contacto</h1>
             <Formik initialValues={({
                 user_name: '',
                 user_email: '',

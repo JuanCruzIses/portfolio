@@ -1,3 +1,7 @@
+.contact-title{
+    margin-top: 1em;
+}
+
 form{
     width: 90%;
     margin: 2em auto;
@@ -10,7 +14,11 @@ p{
 }
 
 .col-md-4{
+    width: 80%;
     margin-bottom: 1em;
+    max-width: 410px;
+    margin: 0 auto 1.2em;
+    padding: 0;
 }
 
 .container-text-button{
@@ -22,3 +30,23 @@ p{
     margin: 2em 0 0;
 }
 
+.form-floating {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    padding: 0;
+}
+
+.input-textarea.form-control{
+    height: 8em;
+    margin: auto;
+}
+
+.form-floating>.form-control:not(:placeholder-shown)~label{
+    width: 100%;
+    padding-top: 0.7em;
+}
+
+@media (min-width: 560px){
+
+}
