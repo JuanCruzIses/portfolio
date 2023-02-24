@@ -228,6 +228,16 @@ h3{
     }
 
   @media (min-width:1000px){
+    .banner-img{
+        height: 12em;
+        object-fit: cover;
+      }
+    
+      .retrato-img{
+        width: 19%;
+        top: 6em;
+      }
+      
     .projects-section h6{
         width: 100%;
     }

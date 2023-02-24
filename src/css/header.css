@@ -158,3 +158,15 @@ button {
     opacity: 1;
   }
 }
+
+@media (min-width: 1024px){
+  .banner-img{
+    height: 12em;
+    object-fit: cover;
+  }
+
+  .retrato-img{
+    width: 19%;
+    top: 6em;
+  }
+}

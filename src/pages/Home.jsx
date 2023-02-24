@@ -16,7 +16,7 @@ function Home() {
                 <h1>Juan Cruz Ises</h1>
                 <h3>DESARROLLADOR WEB FULL STACK</h3>
                 <p className='about-me'>A partir del año 2021 decidí realizar un cambio en mi vida e introducirme de lleno en el mundo de la programación, descubriendo así una nueva pasión. <br></br>
-                 Desde entonces forme mi aprendizaje a través de distintas instituciones educativas, como Digital House y la UTN, como así tambien aprendiendo de forma autodidacta y de colegas de gran experiencia. Gracias a esto, logre desarrollar una formación llena de herramientas que me permiten llevar adelante distintos tipos de proyectos, aportando de mi creatividad y ganas de innovar.</p>
+                 Desde entonces forme mi aprendizaje a través de distintas instituciones educativas, como Digital House y la UTN, como así también aprendiendo de forma autodidacta y de colegas de gran experiencia. Gracias a esto, logre desarrollar una formación llena de herramientas que me permiten llevar adelante distintos tipos de proyectos, aportando de mi creatividad y ganas de innovar.</p>
             </section>
             <div className='background-color'></div>
             <div className='container-ilustracion-img'>
