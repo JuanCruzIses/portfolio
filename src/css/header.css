@@ -31,9 +31,9 @@ a {
   color: white;
 }
 
-button {
+/* button {
   display: none;
-}
+} */
 
 /* #header:hover {
   animation: scale-up-center 0.8s cubic-bezier(0.690, 0.575, 0.565, 1.000);
@@ -160,13 +160,5 @@ button {
 }
 
 @media (min-width: 1024px){
-  .banner-img{
-    height: 12em;
-    object-fit: cover;
-  }
 
-  .retrato-img{
-    width: 19%;
-    top: 6em;
-  }
 }
