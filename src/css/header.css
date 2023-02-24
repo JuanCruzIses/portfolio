@@ -87,6 +87,10 @@ button {
     height: 100%;
   }
 
+  .contact-button button svg{
+    position: absolute;
+  }
+
 
   :root {
     --body-bg-color: #1a1c1d;
@@ -103,7 +107,6 @@ button {
   }
 
   svg{
-    position: absolute;
     left: 0;
     right: 0;
     bottom: 0;

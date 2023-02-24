@@ -47,6 +47,18 @@ p{
     padding-top: 0.7em;
 }
 
-@media (min-width: 560px){
+@media (min-width: 768px){
+    .col-md-4{
+        margin: 0 auto 1.2em;
+        padding: 0;
+        width: 70%;
+        max-width: none;
+    }
 
+    .form-floating {
+        position: relative;
+        width: 70%;
+        margin: auto;
+        padding: 0;
+    }
 }

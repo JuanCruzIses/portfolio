@@ -47,6 +47,7 @@ span {
 }
 
 .footer-button {
+    display: block;
     margin: auto;
     border: none;
     background: none;
