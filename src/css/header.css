@@ -35,10 +35,6 @@ a {
   color: white;
 }
 
-/* button {
-  display: none;
-} */
-
 /* #header:hover {
   animation: scale-up-center 0.8s cubic-bezier(0.690, 0.575, 0.565, 1.000);
 } */
@@ -72,9 +68,17 @@ a {
   }
 }
 
+@media(min-width:425px){
+  .contact-button{
+    font-size: 1.2em;
+  }
+  
+}
+
 @media (min-width: 768px) {
   .contact-button {
     font-size: 1.3em;
+    margin: 0 6%;
   }
 
   .contact-button:hover button {
