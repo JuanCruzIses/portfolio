@@ -23,11 +23,11 @@ function Contact() {
     const [error, setError] = useState(null)
     const [emailOk, setEmailOk] = useState()
     const sendEmail = async (event) => {
-        const isValid = await schema.isValid(event)
-        console.log(schema)
-        if (isValid == false) {
-            setError('Por favor verifica los datos ingresados')
-        } else {
+        // const isValid = await schema.isValid(event)
+        // console.log(schema)
+        // if (isValid == false) {
+        //     setError('Por favor verifica los datos ingresados')
+        // } else {
             emailjs.send("service_rui7i0b", "template_ylzyweg", {
                 user_name: event.user_name,
                 user_message: event.user_message,
@@ -41,7 +41,6 @@ function Contact() {
                 })
                 .catch(error => setEmailOk(false))
         }
-    }
 
     return (
         <>
