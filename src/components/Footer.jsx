@@ -30,9 +30,6 @@ function Footer(){
                         <span>Programador Web Full Stack</span>
                     </div>
                     <div className='div-container-logo'>
-                    <a href='#header'>
-                        <img className='logo-footer' src={require('../images/logo.png')}></img>
-                    </a>
                     </div>
                     <div>
                         <span className='footer-container-title'>INFO DE CONTACTO</span><br></br>
