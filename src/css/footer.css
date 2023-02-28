@@ -44,6 +44,10 @@ span {
     display: flex;
 }
 
+.div-container-logo{
+    display: none;
+}
+
 .footer-container-buttons a {
     height: auto;
     align-items: center;
@@ -61,6 +65,10 @@ span {
 }
 
 @media (min-width: 768px){
+    .div-container-logo{
+        display: block;
+    }
+
     .logo-footer {
         width: 30%;
     }    
@@ -75,12 +83,18 @@ span {
         width: 100%;
         flex-wrap: wrap;
         display: flex;
-        margin-top: 1.5em;
+        margin-top: 2.5em;
         padding: 0;
     }
 
     .footer-container div{
         width: 30%;
         text-align: center;
+    }
+}
+
+@media (min-width: 1024px){
+    .logo-footer {
+        width: 20%;
     }
 }
