@@ -16,7 +16,7 @@ function Home() {
                 <h1>Juan Cruz Ises</h1>
                 <h3>DESARROLLADOR WEB FULL STACK</h3>
                 <p className='about-me'>A partir del año 2021 decidí realizar un cambio en mi vida e introducirme de lleno en el mundo de la programación, descubriendo así una nueva pasión. <br></br>
-                 Desde entonces forme mi aprendizaje a través de distintas instituciones educativas, como Digital House y la UTN, como así también aprendiendo de forma autodidacta y de colegas de gran experiencia. Gracias a esto, logre desarrollar una formación llena de herramientas que me permiten llevar adelante distintos tipos de proyectos, aportando de mi creatividad y ganas de innovar.</p>
+                 Desde entonces forme mi aprendizaje a través de distintas instituciones educativas (Digital House y UTN), como así también, aprendiendo de forma autodidacta y de colegas de gran experiencia. Gracias a esto logre desarrollar una formación llena de herramientas que me permiten llevar adelante distintos tipos de proyectos, aportando de mi creatividad y ganas de innovar.</p>
             </section>
             <div className='background-color'></div>
             <div className='container-ilustracion-img'>
@@ -38,6 +38,16 @@ function Home() {
                     </div>
                 </div>
                 <div className='project-modal'>
+                    <img alt='logo-sombreroloco' className='image-project-modal sombrero' src={require('../images/logo-sombrero.png')}></img>
+                    <div className='overlay'>
+                        <h8 className='title-project-modal'>Sombrero loco</h8>
+                        <p className='p-project-modal'>Página web orientada a la venta de libros</p>
+                        <a className='a-project-modal' rel="noopener noreferrer" target={'_blank'} href='https://sombrereroloco.onrender.com/'>
+                            <button className='button-project-modal'>Sitio web </button>
+                        </a>    
+                    </div>
+                </div>
+                <div className='project-modal'>
                     <img alt='logo-mapear' className='image-project-modal mapear' src={require('../images/logo-mapear.jpg')}></img>
                     <div className='overlay'>
                         <h8 className='title-project-modal'>Mapear</h8>
@@ -45,16 +55,6 @@ function Home() {
                         <a className='a-project-modal' rel="noopener noreferrer" target={'_blank'} href='/'>
                             <button className='button-project-modal'>Sitio web</button>
                         </a>
-                    </div>
-                </div>
-                <div className='project-modal'>
-                    <img alt='logo-sombreroloco' className='image-project-modal sombrero' src={require('../images/logo-sombrero.png')}></img>
-                    <div className='overlay'>
-                        <h8 className='title-project-modal'>Sombrero loco</h8>
-                        <p className='p-project-modal'>Página web orientada a la venta de libros</p>
-                        <a className='a-project-modal' rel="noopener noreferrer" target={'_blank'} href='/'>
-                            <button className='button-project-modal'>Sitio web </button>
-                        </a>    
                     </div>
                 </div>
 

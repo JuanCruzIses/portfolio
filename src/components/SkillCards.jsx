@@ -9,7 +9,7 @@ function ListGroupWithHeaderExample() {
 
             <ListGroup variant="flush">
                 <ListGroup.Item className='list-group first'>
-                    <img className='card-title' src={require('../images/frontend.jpg')}></img>
+                    <img className='card-title first' src={require('../images/frontend.jpg')}></img>
                     <ul id='u-list'>
                         <li>REACT</li>
                         <li>HTML / CSS</li>
@@ -19,8 +19,8 @@ function ListGroupWithHeaderExample() {
                         <li>BOOTSTRAP</li>
                     </ul>
                 </ListGroup.Item>
-                <ListGroup.Item className='list-group'>
-                    <img className='card-title' src={require('../images/backend.jpg')}></img>
+                <ListGroup.Item className='list-group second'>
+                    <img className='card-title second' src={require('../images/backend.jpg')}></img>
                     <ul id='u-list'>
                         <li>NODE JS</li>
                         <li>TYPESCRIPT</li>
