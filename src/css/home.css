@@ -96,6 +96,8 @@ h3{
 }
 
 .project-modal p{
+    flex-direction: column;
+    justify-content: center;
     font-family: "eurostile", sans-serif;
     height: 60%;
     margin: 0;

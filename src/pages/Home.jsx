@@ -56,7 +56,7 @@ function Home() {
                     <img alt='logo-mapear' className='image-project-modal mapear' src={require('../images/logo-mapear.jpg')}></img>
                     <div className='overlay'>
                         <h8 className='title-project-modal'>Mapear</h8>
-                        <p className='p-project-modal'>Página web orientada al turismo nacional</p>
+                        <p className='p-project-modal'>Página web orientada al turismo nacional<br></br> <b>Version Mobile</b></p>
                         <a className='a-project-modal' rel="noopener noreferrer" target={'_blank'} href='https://mapear-y8ds.onrender.com/home'>
                             <button className='button-project-modal'>Sitio web</button>
                         </a>
