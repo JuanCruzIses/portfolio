@@ -187,6 +187,10 @@ h3{
   }
 
   @media (min-width:560px) {
+    h1{
+        margin-top: 2.5em;
+       }
+
     .banner-img{
         height: 25vh;
     }    
@@ -196,22 +200,26 @@ h3{
     }   
     }
 
-    @media (min-width:700px) {
+    @media (min-width:620px) {
        h1{
-        margin-top: 1.5em;
+        margin-top: 1.8em;
+       }
+
+       .retrato-img{
+            height: auto;
+            top: 6em;
+            width: 30%;
        }
        
         .banner-img{
             height: auto;
         }    
 
-        .retrato-img{
-            /* height: 45vh;
-            top: 7.2em; */
-            width: 25%;
+        /* .retrato-img{ */
+            /* width: 25%;
             height: auto;
             top: 9em;
-        }
+        } */
         
         .about-me{
             font-size: 1.2em;
@@ -229,7 +237,32 @@ h3{
         
     }
 
+@media(min-width: 768px){
+    .retrato-img {
+        height: auto;
+        top: 6em;
+        width: 28%;
+      }
+}
+
   @media (min-width:1000px){
+    .banner-img{
+        transition: 1s;
+        width: 100%;
+    }
+
+    .container-images:hover .banner-img{
+        -webkit-transform:scale(0.1);transform:scale(1.1);
+    }
+
+    .container-images:hover .retrato-img{
+        box-shadow: 0px 0px 3px #f9a200c9;
+    }
+
+    .container-images{
+        overflow: hidden;
+    }
+
     .banner-img{
         height: 12em;
         object-fit: cover;
