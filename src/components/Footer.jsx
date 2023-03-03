@@ -37,6 +37,9 @@ function Footer(){
                         <span>CABA, Argentina</span>
                     </div>
                 </div>
+                <div className='copyright'>
+                    <p className='copyright-p'>© 2023 | Portfolio - Juan cruz Ises </p>
+                </div>
         </footer>
     )
 }

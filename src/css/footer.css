@@ -60,6 +60,16 @@ span {
     font-size: 2em;
 }
 
+.copyright{
+    width: 100%;
+}
+
+.copyright p{
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
 @media (min-width: 768px){
     .logo-footer {
         width: 30%;
@@ -82,6 +92,10 @@ span {
     .footer-container div{
         width: 30%;
         text-align: center;
+    }
+
+    .footer-container-buttons a:hover button{
+        color: white;
     }
 }
 
