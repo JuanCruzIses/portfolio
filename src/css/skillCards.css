@@ -46,6 +46,10 @@ ul#u-list{
     padding: 0;
 }
 
+.list-group-item {
+    padding: 0;
+}
+
 .list-group-item li{
     cursor: default;
     list-style: none;

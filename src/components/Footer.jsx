@@ -29,12 +29,9 @@ function Footer(){
                         <span className='footer-container-title'>JUAN CRUZ ISES</span><br></br>
                         <span>Programador Web Full Stack</span>
                     </div>
-                    <div className='div-container-logo'>
-                    </div>
                     <div>
                         <span className='footer-container-title'>INFO DE CONTACTO</span><br></br>
-                        <span><b>E-mail:</b> juancruzises@gmail.com</span><br></br>
-                        <span>CABA, Argentina</span>
+                        <span><b>Email:</b> juancruzises@gmail.com</span><br></br>
                     </div>
                 </div>
                 <div className='copyright'>

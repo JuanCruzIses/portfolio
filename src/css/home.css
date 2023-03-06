@@ -15,7 +15,8 @@
 
 .banner-img{
     width: 100%;
-    height: auto;
+    height: 20vh;
+    object-fit: cover;
 }
 
 .retrato-img{
@@ -33,7 +34,7 @@
 }
 
 .separador{
-    height: 16vh;
+    height: 13vh;
     display: block;
     width: 100%;
 }
@@ -206,8 +207,17 @@ h3{
   }
 
   
+  @media (min-width: 400px){
+    .separador{
+        height: 16vh;
+    }
+  }
   
   @media (min-width:450px) {
+    .banner-img{
+        height: auto;
+    }
+
       .project-modal{
           width: 40%;
           max-width: 187px;
@@ -235,7 +245,7 @@ h3{
 
     @media (min-width:620px) {
         .separador{
-            height: 15vh;
+            height: 14vh;
         }
         
         .about-me{
@@ -291,11 +301,6 @@ h3{
     .container-images:hover .banner-img{
         -webkit-transform:scale(0.1);transform:scale(1.1);
         box-shadow: 0px 0px 5px black;
-    }
-
-
-    .container-images:hover .retrato-img{
-        box-shadow: 0px 0px 5px #f9a200c9;
     }
 
     .container-images{
