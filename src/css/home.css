@@ -90,7 +90,7 @@ h3{
 }
 
 .ilustracion-img{
-    transition: 2.5s;
+    transition: 2s;
     width: 70vw;
     margin: 0em auto 1.5em;
 }
@@ -199,36 +199,35 @@ h3{
     font-weight: bold;
   }
 
-  @media (min-width:550px) {
-    h1{
-        font-size: 2em;
-        margin: 2% auto 0;
-    }
-
-}
-
   @media (min-width:375px) {
     .image-project-modal{
         width: 60%;
     }
   }
 
+  
+  
   @media (min-width:450px) {
-    .project-modal{
-        width: 40%;
-        max-width: 187px;
+      .project-modal{
+          width: 40%;
+          max-width: 187px;
     }
-
+    
     .subtitle-projects-section{
         width: 100%;
     }
-
+    
     .ilustracion-img{
         width: 60vw;
     }    
-  }
+}
 
-  @media (min-width:560px) {
+@media (min-width:560px) {
+    h1{
+        font-size: 2em;
+        margin: 2% auto 0;
+    }
+
     .ilustracion-img{
         width: 50vw;
     }   
@@ -314,6 +313,12 @@ h3{
 
     .background-color{
         margin-top: 15em;
+    }
+
+    .a-project-modal:hover .button-project-modal{
+        background-color: white;
+        color: #faa70f;
+        border: #faa70f;
     }
   }
 

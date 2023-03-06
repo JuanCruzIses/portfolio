@@ -20,7 +20,7 @@ function Home() {
             </div>
             <div className='container-aboutme'>
                 <p className='about-me'>A partir del año 2021 decidí realizar un cambio en mi vida e introducirme de lleno en el mundo de la programación, descubriendo así una nueva pasión. <br></br>
-                Desde entonces forme mi aprendizaje a través de distintas instituciones educativas (Digital House y UTN), como así también, aprendiendo de forma autodidacta y de colegas de gran experiencia. Gracias a esto logre desarrollar una formación llena de herramientas que me permiten llevar adelante distintos tipos de proyectos, aportando de mi creatividad y ganas de innovar.
+                Desde entonces forme mi aprendizaje a través de distintas instituciones educativas (Digital House y UTN), como así también, aprendiendo de forma autodidacta y de colegas de gran experiencia. Gracias a esto logre desarrollar una formación llena de herramientas que me permiten llevar adelante distintos tipos de proyectos, aportando de mi creatividad, ganas de innovar y de continuar aprendiendo.
                 </p>
             </div>
             <SkillsSection></SkillsSection>

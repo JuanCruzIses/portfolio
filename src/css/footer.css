@@ -68,6 +68,10 @@ span {
     margin: 0;
     background-color: black;
     color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 4.5vh;
 }
 
 @media (min-width: 768px){
