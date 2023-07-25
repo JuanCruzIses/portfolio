@@ -19,8 +19,8 @@ function Home() {
                 </section>
             </div>
             <div className='container-aboutme'>
-                <p className='about-me'>A partir del año 2021 decidí introducirme en el mundo de la programación y desde entonces forme mi aprendizaje a través de distintas instituciones educativas (Digital House y UTN), como así también, aprendiendo de forma autodidacta y de colegas de gran experiencia. Gracias a esto logre incorporar multiples herramientas que me permiten llevar adelante distintos tipos de proyectos, aportando de mi creatividad, ganas de innovar y de continuar aprendiendo.
-                </p>
+                <p className='about-me'>En el año 2021, tomé la decisión de emprender un nuevo camino en mi vida y adentrarme en el apasionante mundo de la programación. Mi aprendizaje ha sido forjado a través de mi participación en la prestigiosa institución educativa Digital House, combinado con estudios autodidactas y el valioso intercambio de conocimientos con colegas de gran experiencia. Gracias a esta formación integral, he adquirido una amplia gama de habilidades y herramientas que me han permitido llevar a cabo diversos proyectos, aportando de mi creatividad y ganas de innovar. Estoy entusiasmado por seguir creciendo en este campo y contribuir con mis capacidades a nuevos desafíos.
+</p>
             </div>
             <SkillsSection></SkillsSection>
             <ProjectsSection></ProjectsSection>

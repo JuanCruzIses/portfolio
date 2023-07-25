@@ -57,13 +57,22 @@ function ProjectsSection (){
                     <img alt='logo-mapear' className='image-project-modal mapear' src={require('../images/logo-mapear.jpg')}></img>
                     <div className='overlay'>
                         <h7 className='title-project-modal'>Mapear</h7>
-                        <p className='p-project-modal'>Página web orientada al turismo nacional<br></br> <b>Version Mobile</b></p>
+                        <p className='p-project-modal'>Página web orientada al turismo nacional<br></br> <b>Version Mobile 1.0</b></p>
                         <a className='a-project-modal' rel="noopener noreferrer" target={'_blank'} href='https://mapear-y8ds.onrender.com/home'>
                             <button className='button-project-modal'>Sitio web</button>
                         </a>
                     </div>
                 </div>
-
+                <div className={`project-modal scroll-content ${pasoModal2 == true ? 'visible' : 'fadeTop'}`}>
+                    <img alt='logo-mapear' className='image-project-modal mapear' src={require('../images/logo-mapear.jpg')}></img>
+                    <div className='overlay'>
+                        <h7 className='title-project-modal'>Mapear</h7>
+                        <p className='p-project-modal'>Página web orientada al turismo nacional<br></br> <b>Version Mobile 2.0</b></p>
+                        <a className='a-project-modal' rel="noopener noreferrer" target={'_blank'} href='https://mapear-frontend.vercel.app/'>
+                            <button className='button-project-modal'>Sitio web</button>
+                        </a>
+                    </div>
+                </div>
             </section>
     )
 }
