@@ -37,6 +37,10 @@ p{
     padding: 0;
 }
 
+.form-floating textarea{
+    max-height: 190px;
+}
+
 .input-textarea.form-control{
     height: 8em;
     margin: auto;

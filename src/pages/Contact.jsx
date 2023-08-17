@@ -10,24 +10,11 @@ import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import Row from 'react-bootstrap/Row';
 import emailjs from '@emailjs/browser'
 import '../css/contact.css'
-import * as Yup from 'yup'
-
-const schema = Yup.object().shape({
-    user_name: Yup.string().required('Por favor ingrese su nombre'),
-    user_email: Yup.string().email('Por favor ingrese un email valido').required('Por favor ingrese su email'),
-    user_message: Yup.number().required('Por favor deje su mensaje')
-})
-
 
 function Contact() {
     const [error, setError] = useState(null)
     const [emailOk, setEmailOk] = useState()
     const sendEmail = async (event) => {
-        // const isValid = await schema.isValid(event)
-        // console.log(schema)
-        // if (isValid == false) {
-        //     setError('Por favor verifica los datos ingresados')
-        // } else {
             emailjs.send("service_rui7i0b", "template_ylzyweg", {
                 user_name: event.user_name,
                 user_message: event.user_message,

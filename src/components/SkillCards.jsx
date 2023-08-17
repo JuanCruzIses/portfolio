@@ -12,6 +12,7 @@ function ListGroupWithHeaderExample() {
                     <img className='card-title first' src={require('../images/frontend.jpg')}></img>
                     <ul id='u-list'>
                         <li>REACT</li>
+                        <li>NEXT JS</li>
                         <li>HTML / CSS</li>
                         <li>RESPONSIVE DESIGN</li>
                         <li>TEMPLATE EJS</li>
@@ -23,7 +24,6 @@ function ListGroupWithHeaderExample() {
                     <img className='card-title second' src={require('../images/backend.jpg')}></img>
                     <ul id='u-list'>
                         <li>NODE JS</li>
-                        <li>TYPESCRIPT</li>
                         <li>JAVASCRIPT</li>
                         <li>MVC</li>
                         <li>MYSQL</li>
