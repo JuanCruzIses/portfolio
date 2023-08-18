@@ -1,29 +1,12 @@
 import '../css/footer.css'
 import {FaLinkedin} from 'react-icons/fa'
 import {FaGithub} from 'react-icons/fa'
-import {MdEmail} from 'react-icons/md'
+import {MdEmail, MdPhone} from 'react-icons/md'
 
 
 function Footer(){
     return(
         <footer>
-                <div className='footer-container-buttons'>
-                    <a rel="noopener noreferrer" target={'_blank'} href='https://www.linkedin.com/in/juan-cruz-ises/?originalSubdomain=ar'>
-                       <button  className='footer-button'>
-                            <FaLinkedin/>
-                       </button>
-                    </a>
-                    <a  href='https://juancruzises-portfolio.vercel.app/contact'>
-                        <button className='footer-button'>
-                            <MdEmail/>
-                        </button>
-                    </a>
-                    <a rel="noopener noreferrer" target={'_blank'} href='https://github.com/JuanCruzIses'>
-                       <button  className='footer-button'>
-                            <FaGithub/>
-                       </button>
-                    </a>
-                </div>
                 <div className='footer-container'>
                     <div>
                         <span className='footer-container-title'>JUAN CRUZ ISES</span><br></br>
@@ -31,11 +14,25 @@ function Footer(){
                     </div>
                     <div>
                         <span className='footer-container-title'>INFO DE CONTACTO</span><br></br>
-                        <span><b>Email:</b> juancruzises@gmail.com</span><br></br>
+                        <span><b><MdEmail/></b> juancruzises@gmail.com</span><br></br>
+                        <span><b><MdPhone/></b>1123883960</span><br></br>
                     </div>
                 </div>
+                <div className='footer-container-buttons'>
+                    <a rel="noopener noreferrer" target={'_blank'} href='https://www.linkedin.com/in/juan-cruz-ises/?originalSubdomain=ar'>
+                       <button  className='footer-button'>
+                            <FaLinkedin/>
+                       </button>
+                    </a>
+                    <a rel="noopener noreferrer" target={'_blank'} href='https://github.com/JuanCruzIses'>
+                       <button  className='footer-button'>
+                            <FaGithub/>
+                       </button>
+                    </a>
+                </div>
                 <div className='copyright'>
-                    <p className='copyright-p'>© 2023 | Portfolio - Juan cruz Ises </p>
+                    <p className='copyright-p'>© 2023 | <img id='header' className='logo scale-up-center animate_animated animate__flipInX' src={require('../images/logo.png')}></img></p>
+                    
                 </div>
         </footer>
     )

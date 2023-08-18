@@ -10,7 +10,6 @@ function ProjectsSection (){
     const [pasoModal2, setPasoModal2] = useState(false)
     const [pasoModal3, setPasoModal3] = useState(false)
     const [pasoModal4, setPasoModal4] = useState(false)
-    const [pasoModal5, setPasoModal5] = useState(false)
 
     function toggleModal(e){
         setModalId(e.target.id)
@@ -53,12 +52,6 @@ function ProjectsSection (){
                     setPasoModal4(true)
                 :
                    setPasoModal4(false)
-                break    
-                case 5:
-                    elements[i].getBoundingClientRect().top < screenHeight ?
-                    setPasoModal5(true)
-                :
-                   setPasoModal5(false)
                 break    
             }
         }   
@@ -121,12 +114,6 @@ function ProjectsSection (){
                         <h6>Proyecto en construccion...</h6>
                         <Spinner className='image-project-modal mapear'/>
                     </div>
-                    <div className={`project-modal scroll-content projects-in-progress ${pasoModal5 == true ? 'visible' : 'fadeTop'}`}>
-                        <FaTools/>
-                        <h6>Proyecto en construccion...</h6>
-                        <Spinner className='image-project-modal mapear'/>
-                    </div>
-
                 </div>
             </section>
     )
