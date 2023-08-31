@@ -70,7 +70,7 @@ span {
     align-items: center;
     justify-content: center;
     display: flex;
-    height: 5vh;
+    height: 2.1em;
 }
 
 @media (min-width: 768px){
@@ -94,6 +94,7 @@ span {
 
     .footer-container div{
         width: 30%;
+        align-self: flex-start;
         text-align: center;
     }
 
@@ -115,5 +116,9 @@ span {
 
     .footer-container-buttons{
         width: 35%;
+    }
+
+    .copyright p{
+        height: 2.5em;
     }
 }

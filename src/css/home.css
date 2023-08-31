@@ -71,7 +71,7 @@ h3{
 
 .skills-section{
     position: relative;
-    margin: 3.5em 0;
+    margin: 5.5em 0;
 }
 
 .background-color{
@@ -112,7 +112,7 @@ h3{
 
 .projects-section h6{
     text-align: center;
-    width: 100%;
+    width: 85%;
     font-family: "eurostile", sans-serif;    
 }
 
@@ -426,8 +426,6 @@ h3{
 
     .container-images:hover .retrato-img{
         box-shadow: 0px 0px 6px white;
-        /* -webkit-transform:scale(0.1);transform:scale(1.1);
-        box-shadow: 0px 0px 5px black; */
     }
 
     .container-images{

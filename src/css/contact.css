@@ -8,8 +8,9 @@ form{
 }
 
 p{
+    width: 90%;
+    margin: 1em auto;
     text-align: center;
-    margin-top: 1em;
     font-weight: 500;
 }
 

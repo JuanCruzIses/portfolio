@@ -19,7 +19,7 @@ function ProjectsSection (){
     window.addEventListener('scroll', function()  {
         let elements = document.getElementsByClassName('project-modal');
         let screenHeight = window.innerHeight;
-        let screenWidth = window.innerWidth;
+
 
         for(let i = 0; i < elements.length; i++){
             switch(i){
@@ -58,7 +58,7 @@ function ProjectsSection (){
     });  
 
     return(
-        <section className='projects-section'>
+        <section id='proyectos' className='projects-section'>
                 <h4 className='title-projects-section'>Mis trabajos</h4>
                 <h6 className='subtitle-projects-section'>A continuación, comparto algunos proyectos que he desarrollado</h6>
                 <div className='container-projectsModal'>
