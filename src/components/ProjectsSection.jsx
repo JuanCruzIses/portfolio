@@ -80,6 +80,7 @@ function ProjectsSection (){
                         <div className='overlay'>
                             <h6 className='title-project-modal'>Sombrero loco</h6>
                             <p className='p-project-modal'>Proyecto integrador curso Full Stack | E-commerce</p>
+                            <p className='p-project-modal'>HTML | CSS | Javascript | Mysql | EXPRESS | RD | MVC | Middlewares</p>
                             <a className='a-project-modal' rel="noopener noreferrer" target={'_blank'} href='https://sombrereroloco.onrender.com/'>
                                 <button className='button-project-modal'>Sitio web </button>
                             </a>    
