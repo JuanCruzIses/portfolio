@@ -112,6 +112,7 @@ h3{
 
 .projects-section h6{
     text-align: center;
+    margin: 5% auto 0;
     width: 85%;
     font-family: "eurostile", sans-serif;    
 }
@@ -179,7 +180,7 @@ h3{
 }
 
 .a-project-modal{
-    margin-bottom: 0.5em;
+    margin-top: 0.5em;
     height: 20%;
 }
 
