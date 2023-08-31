@@ -39,7 +39,7 @@ function Contact() {
         <>
             <Header />
             <h1 className='contact-title'>Contacto</h1>
-            <p>Te invito a comunicarte conmigo para compartir los detalles de tu proyecto y comenzar nuestra colaboración en su realización.</p>
+            <p>Te invito a comunicarte conmigo para compartir los detalles de tu proyecto y comenzar nuestra colaboración en su desarrollo.</p>
             <Formik initialValues={({
                 user_name: '',
                 user_email: '',
