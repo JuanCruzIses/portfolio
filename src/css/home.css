@@ -59,6 +59,7 @@ h1{
 h3{
     font-weight: 600;
     width: 100%;
+    text-wrap: balance;
     margin: 0 auto;
     text-align: center;
 }
