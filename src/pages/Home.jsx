@@ -19,10 +19,11 @@ function Home() {
                 </section>
             </div>
             <div className='container-aboutme'>
-                <p className='about-me'>En el año 2021, tomé la decisión de emprender un nuevo camino en mi vida y adentrarme en el apasionante mundo de la programación. Mi aprendizaje ha sido forjado a través de mi participación en la prestigiosa institución educativa Digital House, combinado con estudios autodidactas y el valioso intercambio de conocimientos con colegas de gran experiencia. Gracias a esta formación integral, he adquirido una amplia gama de habilidades y herramientas que me han permitido llevar a cabo diversos proyectos, aportando de mi creatividad y ganas de innovar. Estoy entusiasmado por seguir creciendo en este campo y contribuir con mis capacidades a nuevos desafíos.
-</p>
+                <p className='about-me'>
+                    Soy estudiante de Gestión de Tecnología de la Información y Desarrollador Web Jr. con enfoque en front-end y conocimientos de back-end. Me desempeño en el ámbito educativo formando talentos digitales, mientras continuo perfeccionando mis habilidades a través de proyectos, formación continua y nuevos desafíos. Busco crecer profesionalmente en el sector IT, aportando compromiso, pensamiento analítico y creatividad en entornos colaborativos.
+                </p>
             </div>
-            <SkillsSection></SkillsSection>
+            {/* <SkillsSection></SkillsSection> */}
             <ProjectsSection></ProjectsSection>
             <Footer />
         </>

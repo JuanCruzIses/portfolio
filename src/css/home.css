@@ -78,7 +78,7 @@ h3{
 .background-color{
     width: 100%;
     height: 90vh;
-    background-color: #faa70fc9;
+    background-color: blackc9;
     position: absolute;
     margin-top: 8em;
 }
@@ -113,7 +113,7 @@ h3{
 
 .projects-section h6{
     text-align: center;
-    margin: 5% auto 0;
+    margin: 2% auto 0;
     width: 85%;
     font-family: "eurostile", sans-serif;    
 }
@@ -207,7 +207,7 @@ h3{
     opacity: 0;
     position: absolute;
     transition: 0.7s ease;
-    background-color: #faa70f;
+    background-color: black;
     border-radius: 10px;
     top: 0;
     bottom: 0;
@@ -402,20 +402,20 @@ h3{
         opacity: 1;
         display: grid;
         position: inherit;
-        color: orange;
+        color: black;
     }
 
     .expandModal h6{
-        color: orange;
+        color: black;
     }
 
     .expandModal p{
-        color: orange;
+        color: black;
     }
 
     .expandModal a button{
-        color: orange;
-        border: 1px solid orange;
+        color: black;
+        border: 1px solid black;
     }
 
 }
@@ -449,8 +449,8 @@ h3{
 
     .a-project-modal:hover .button-project-modal{
         color: white;
-        background-color: #faa70f;
-        border: #faa70f;
+        background-color: black;
+        border: black;
     }
   }
 
