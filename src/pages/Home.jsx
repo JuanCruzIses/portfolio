@@ -20,7 +20,7 @@ function Home() {
             </div>
             <div className='container-aboutme'>
                 <p className='about-me'>
-                    Soy estudiante de Gestión de Tecnología de la Información y Desarrollador Web Jr. con enfoque en front-end y conocimientos de back-end. Me desempeño en el ámbito educativo formando talentos digitales, mientras continuo perfeccionando mis habilidades a través de proyectos, formación continua y nuevos desafíos. Busco crecer profesionalmente en el sector IT, aportando compromiso, pensamiento analítico y creatividad en entornos colaborativos.
+                    Soy estudiante de Gestión de Tecnología de la Información y Desarrollador Web Jr. con enfoque en front-end. Me desempeño en el ámbito educativo formando talentos digitales, mientras continuo perfeccionando mis habilidades a través de proyectos, formación continua y nuevos desafíos. Busco crecer profesionalmente en el sector IT, aportando compromiso, pensamiento analítico y creatividad en entornos colaborativos.
                 </p>
             </div>
             {/* <SkillsSection></SkillsSection> */}
