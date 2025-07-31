@@ -31,7 +31,7 @@ function Footer(){
                     </a>
                 </div>
                 <div className='copyright'>
-                    <p className='copyright-p'>© 2023 | <img id='header' className='logo scale-up-center animate_animated animate__flipInX' src={require('../images/logo.png')}></img></p>
+                    <p className='copyright-p'>© {new Date().getFullYear()} | <img id='header' className='logo scale-up-center animate_animated animate__flipInX' src={require('../images/logo.png')}></img></p>
                     
                 </div>
         </footer>
